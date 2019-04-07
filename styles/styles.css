@@ -14,14 +14,13 @@ div {
 }
 
 .right {
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
+
 }
 
 .left {
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
+  float: left;
+  width: 500px;
+  padding: 10px;
+
 }
 
