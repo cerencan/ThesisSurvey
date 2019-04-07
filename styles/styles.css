@@ -2,3 +2,7 @@ body {
   text-align: center;
   background-color: #CCF7CE;
 }
+
+div {
+  margin-top: 15px;
+}
