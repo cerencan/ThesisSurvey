@@ -9,10 +9,23 @@ div {
 
 .image-section {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .section-style {
   margin-right: 25px;
   margin-left: 25px;
 }
+
+.right {
+  float: right;
+  width: 300px;
+  padding: 10px;
+}
+
+.left {
+  float: left;
+  width: 300px;
+  padding: 10px;
+}
+
