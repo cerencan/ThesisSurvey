@@ -6,3 +6,9 @@ body {
 div {
   margin-top: 15px;
 }
+
+.section-style {
+  margin-right: 25px;
+  margin-left: 25px;
+  background-color: white;
+}
