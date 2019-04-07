@@ -21,6 +21,6 @@ div {
 .left {
   display: flex;
   align-content: space-around;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
