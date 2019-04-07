@@ -19,8 +19,8 @@ div {
 }
 
 .left {
-  float: left;
-  width: 500px;
-  padding: 10px;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
 }
 
