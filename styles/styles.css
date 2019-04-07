@@ -9,7 +9,7 @@ div {
 
 .image {
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .section-style {
