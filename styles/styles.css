@@ -7,9 +7,9 @@ div {
   margin-top: 15px;
 }
 
-.image {
+.center {
   display: flex;
-  justify-content: right;
+  justify-content: center;
 }
 
 .section-style {
