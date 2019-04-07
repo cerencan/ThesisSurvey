@@ -13,9 +13,9 @@ div {
 }
 
 .right {
-  float: right;
-  width: 500px;
-  padding: 100px;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
 }
 
 .left {
