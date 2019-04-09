@@ -9,7 +9,7 @@ div {
 
 .center {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .right {
