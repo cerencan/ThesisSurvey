@@ -35,24 +35,30 @@ To create a data set consisting of the vocalizations of the imitation cat sounds
             </div>
 
             <div class="right">  
-            <h1>Meow</h1>
-            <p><body>The classic tonal communication sound made by cats. </body> <br></p>
-            <audio controls preload> 
-            <source src="1_1_00.mp3"></source> 
-            <source src="1_1_00.ogg"></source> 
-            </audio>
-            <h1>Purr</h1>
-            <p><body>A tonal fluttering sound made by cats to indicate contentment or relaxed pleasure. </body> <br></p>
-            <audio controls preload> 
-            <source src="1_1_00.mp3"></source> 
-            <source src="1_1_00.ogg"></source> 
-            </audio>
-            <h1>Growling</h1>
-            <p><body>A low, guttural vocalization produced by animals as a warning, a sign of aggression, or to express anger. </body> <br></p>
-            <audio controls preload> 
-            <source src="1_1_00.mp3"></source> 
-            <source src="1_1_00.ogg"></source> 
-            </audio>
+            <p><body> Please send your recordings to ceren.can01@estudiant.upf.edu <br> Including your age, sex, </body> <br></p>
+                  <form action="https://formspree.io/ceren.can01@estudiant.upf.edu" method="POST">
+
+                    <label for="fname">Name and Surname</label>
+                    <input type="text" id="name" name="firstname">
+
+                    <label for="fname">Name and Surname</label>
+                    <input type="text" id="name" name="firstname"
+                           
+                    <label for="question">Do you have cats or do you live with cats? </label>
+                    <select id="question" name="country">
+                      <option value="yes">Yes</option>
+                      <option value="no">No</option>
+                    </select>
+                    
+                    <label for="gender">Please select your gender. </label>
+                     <select id="gender" name="gender">
+                      <option value="female">Female</option>
+                      <option value="male">Male</option>
+                    </select>
+
+                    <input type="submit" value="Submit">
+                  </form>
+              
             </div>
 
       </div>
