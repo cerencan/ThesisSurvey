@@ -12,7 +12,7 @@
 <p style="text-align: justify;">FreeSound is a platform for the collaborative creation of open audio collections labeled by humans and based on Freesound content. To create a data set consisting of the vocalizations of the imitation cat sounds, here reference sounds were created.</p>
 <p style="text-align: justify;">You should listen to the combination of various clips for each category to be able to create imitations. Each category approximately 20-30 seconds long and consist of different sources. You need to record 10 imitations for each cat subcategory. Duration of the imitations may vary and they will have been shortened when necessary. You should record the imitations in a silent environment.</p>
 <p style="text-align: justify;">After recording your imitations please fill the form on the right and send your recordings to me by email.</p>
-<p style="text-align: justify;">ceren.can01@estudiant.upf.edu</p>
+<p style="text-align: justify;"> ceren.can01@estudiant.upf.edu </p>
 <p style="text-align: justify;">Thanks for participating and&nbsp;Happy Meowing!</p>
 <p style="text-align: justify;">&nbsp;</p>
       </div>
@@ -46,18 +46,20 @@
                           <tr>
                           <td style="width: 330.667px; text-align:left;"> 
                             <form action="https://formspree.io/ceren.can01@estudiant.upf.edu" method="POST" target="_blank">
-                            <label for="fname">Name and Surname: </label>
+                            Name and Surname:
+                            <input type="text" id="name" name="firstname"><br>
+                            Email:
                             <input type="text" id="name" name="firstname"><br>
                             Age: <input type="text" id="age" name="age"> <br>
                             Do you have cats or have you ever lived with cats? 
-                            <select id="question" name="question">
-                              <option value="yes">Yes</option>
-                              <option value="no">No</option>
-                            </select><br>
-                            Please select your gender:
-                            <input type="radio" name="gender" value="male" checked> Male
-                            <input type="radio" name="gender" value="female"> Female<br>
+                            <input type="radio" name="yes" value="yes" checked> Yes
+                            <input type="radio" name="no" value="no"> No<br>
                             </select>
+                            Please select your gender:
+                              <select id="gender" name="gender">
+                              <option value="female">Female</option>
+                              <option value="male">Male</option>
+                            </select><br>
                             <input type="submit" value="Submit">
                           </form></td>
                           </tr>
