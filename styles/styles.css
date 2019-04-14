@@ -10,13 +10,13 @@ body {
 
 .right {
   float: right;
-  width: 40%;
+  width: 50%;
   padding: 10px;
 }
 
 .left {
   float: left;
-  width: 40%;
+  width: 45;
   padding: 20px;
 
 }
